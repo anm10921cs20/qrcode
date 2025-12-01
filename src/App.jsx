@@ -9,7 +9,7 @@ const App = () => {
 const [img, setImg] = useState("");
 const [loading, setLoading] = useState(false);
 const [imgsize, setImgSize] = useState("150")
-const[imgData, setImgData] = useState("mahan")
+const[imgData, setImgData] = useState("https://www.google.com")
 
 
 
