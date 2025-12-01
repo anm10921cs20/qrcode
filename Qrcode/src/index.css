@@ -1,0 +1,60 @@
+*
+{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.img-container img
+{
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px #ccc,
+  -1px -1px 1px #ccc;
+}
+.main-container h2
+{
+  font-size: 16px;
+  color: #429e42;
+}
+.main-container
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  gap:30px;
+  max-width: 100%;
+}
+.form-input
+{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 90%;
+}
+input[type="text"]
+{
+  padding: 10px 0px;
+  width: 100%;
+}
+.btn-container
+{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+.generate
+{
+  padding: 6px 20px;
+  border: transparent;
+  background-color: #15f5e2;
+  border-radius: 4px;
+}
+.download
+{
+   padding: 6px 20px;
+  border: transparent;
+  background-color: #1cca16;
+  border-radius: 4px;
+}
