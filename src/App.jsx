@@ -68,9 +68,10 @@ function downloadQr()
         <input type="text" id='formInput' value={imgsize} onChange={(e)=> setImgSize(e.target.value)} />
       </div>
       <div className='btn-container'>
-        <button className='generate' onClick={generateQr}>Generate Qr Code</button>
+        <button className='generate' disabled={loading} onClick={generateQr}>Generate Qr Code</button>
         <button className='download' onClick={downloadQr}>Download Qr Code</button>
       </div>
+      <p className="designname">designed by <a href="https://mahanfreelauncer.vercel.app/" target="_blank">MahanPrinceOffical</a></p>
     </div>
   )
 }

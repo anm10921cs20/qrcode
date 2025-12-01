@@ -58,3 +58,14 @@ input[type="text"]
   background-color: #1cca16;
   border-radius: 4px;
 }
+.designname
+{
+  font-size: 17px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.designname a
+{
+  color: #429e42;
+  text-decoration: none;
+}
